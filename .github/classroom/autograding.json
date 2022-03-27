@@ -1,0 +1,14 @@
+{
+    "tests": [
+      {
+        "name": "Test Api",
+        "setup": "sudo -H python3 -m pip install -r requirements.txt",
+        "run": "python3 -m unittest test.py",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 30,
+        "points": null
+      }
+    ]
+  }
